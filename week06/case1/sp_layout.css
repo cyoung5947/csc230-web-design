@@ -31,12 +31,12 @@ header, nav , ul, li, a{
   box-sizing: border-box;
 }
 
-
 /* Row Styles */
-
-
-
-
+.row::after{
+  clear: both;
+  display: table;
+  content: "";
+}
 
 /* Page Header Styles */
 
