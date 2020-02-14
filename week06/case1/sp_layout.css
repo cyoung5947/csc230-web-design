@@ -44,13 +44,15 @@ header > img{
   width: 70%;
   float: left;
 }
-
 body > header > nav{
   float: left;
   padding: 0px 2px;
   width: 30%;
 }
-
+body > header > nav a{
+  display: block;
+  width: 100%
+}
 
 
 /* Horizontal Navigation List Styles */
