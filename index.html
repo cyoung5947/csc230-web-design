@@ -1,66 +1,132 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!--
-            Name: Chris Young
-            Date: 1/15/20
-            Description: Home Page For Chris Young
-            Resources:
-        -->
-        <title>Chris Young</title>
-        <link href="css/index_layout.css" rel="stylesheet" />
-        <link href="css/index_styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <h1>Chris Young</h1>
-            <h3>CSC230 Website Design <br /> Winter 2020</h3>
-        </header>
-        <nav>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-        </nav>
-        <aside>
+    <title>Chris Young</title>
 
-        </aside>
-        <section>
-            <article>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 
-            </article>
-            <ol>
-                <li>Assignment 01</li>
-                <ul>
-                    <li>Chapter 1, Tutorial - <a href="week01/tutorial/ct_start.html" target="_blank">Curbside Thai</a></li>
-                </ul>
-                <li>Assignment 02</li>
-                <ul>
-                    <li>Chapter 1, Review 01 - <a href="week02/review/mp_index.html" target="_blank">Mobile Panini</a></li>
-                </ul>
-                <li>Assignment 03</li>
-                <ul>
-                    <li>Chapter 1, Case 01 - <a href="week03/case1/jtc_index.html" target="_blank">Jedds Tree Service</a></li>
-                </ul>
-                <li>Assignment 04</li>
-                <ul>
-                    <li>Chapter 2, Tutorial - <a href="#" target="_blank">Tri and Succeed Sports</a></li>
-                </ul>
-                <li>Assignment 05</li>
-                <ul>
-                    <li>Chapter 2, Case 02 - <a href="#" target="_blank">Mountain Wheels</a></li>
-                    <li>Chapter 3, Tutorial - <a href="#" target="_blank">Pandasia Chocolates</a></li>
-                </ul>
-                <li>Assignment 06</li>
-                <ul>
-                    <li>Chapter 3, Case 01 - <a href="#" target="_blank">Slate & Pencil Tutoring</a></li>
-                    <li>Chapter 3, Case 02 - <a href="#" target="_blank">Costume Expressions</a></li>
-                </ul>
-                <li>Assignment 07</li>
-                <ul>
-                    <li>Chapter 4, Tutorial - <a href="#" target="_blank">Tree and Book</a></li>
-                    <li>Chapter 4, Case 02 - <a href="#" target="_blank">Save Your Fork</a></li>
-                </ul>
-            </ol>
-        </section>
-        <footer>
-        </footer>
-    </body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--
+        Name: Chris Young
+        Date: 1/15/20
+        Description: Home Page For Chris Young
+        Resources:
+        Base Layout Template - getbootstrap.com
+        Fonts - Google Fonts
+        Background Pattern - www.subtlepatterns.com
+        Images: Various sources on Google Images
+    -->
+
+    <link href="css/index_layout.css" rel="stylesheet" />
+    <link href="css/index_styles.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Chris Young</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron -->
+      <div class="jumbotron background-img">
+        <div class="container background-img">
+          <h1 class="display-3 red-text">Chris Young</h1>
+          <p>This is the "portfolio" site for Chris Young. It is designed in Bootstrap and is designed to fit on only one page. Check out the other stuff I did in the class below as well as some things about me.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="red-text"><strong>Projects</strong></h2>
+            <p>Below is a list of the assignments I completed in the class.
+              <ol>
+                  <li>Assignment 01</li>
+                  <ul class="dash-list">
+                      <li>Chapter 1, Tutorial - <a href="week01/tutorial/ct_start.html" target="_blank">Curbside Thai</a></li>
+                  </ul>
+                  <li>Assignment 02</li>
+                  <ul class="dash-list">
+                      <li>Chapter 1, Review 01 - <a href="week02/review/mp_index.html" target="_blank">Mobile Panini</a></li>
+                  </ul>
+                  <li>Assignment 03</li>
+                  <ul class="dash-list">
+                      <li>Chapter 1, Case 01 - <a href="week03/case1/jtc_index.html" target="_blank">Jedds Tree Service</a></li>
+                  </ul>
+                  <li>Assignment 04</li>
+                  <ul class="dash-list">
+                      <li>Chapter 2, Tutorial - <a href="#" target="_blank">Tri and Succeed Sports</a></li>
+                  </ul>
+                  <li>Assignment 05</li>
+                  <ul class="dash-list">
+                      <li>Chapter 2, Case 02 - <a href="#" target="_blank">Mountain Wheels</a></li>
+                      <li>Chapter 3, Tutorial - <a href="#" target="_blank">Pandasia Chocolates</a></li>
+                  </ul>
+                  <li>Assignment 06</li>
+                  <ul class="dash-list">
+                      <li>Chapter 3, Case 01 - <a href="#" target="_blank">Slate & Pencil Tutoring</a></li>
+                      <li>Chapter 3, Case 02 - <a href="#" target="_blank">Costume Expressions</a></li>
+                  </ul>
+                  <li>Assignment 07</li>
+                  <ul class="dash-list">
+                      <li>Chapter 4, Tutorial - <a href="#" target="_blank">Tree and Book</a></li>
+                      <li>Chapter 4, Case 02 - <a href="#" target="_blank">Save Your Fork</a></li>
+                  </ul>
+              </ol>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2 class="red-text"><strong>About Me</strong></h2>
+            <p>My name is Chris Young. I live in Louisville, KY and am going to school at Sullivan University for my Bachelor of Science in IT. I am looking to work in a datacenter some day, being the one who manages all the servers on the floor. I already do this at home and run a <a href="https://rainbowhostmc.com/" target="_blank">game-server hosting service</a> out of a server rack in the basement. I have been messing with computers and technology since I was 10 and have decided to make it my career. Other than the datacenter manager goal I would like to also eventually own my own computer company. I'm not quite sure what it'll do yet, there are still ideas going through my head of what I want it to be.</p>
+          </div>
+          <div class="col-md-4">
+            <h2 class="red-text"><strong>Tribute</strong></h2>
+            <p><Strong>Steve Jobs and Steve Wozniak</Strong></p>
+            <img id="tribute-image" src="images/jobs-and-woz.jpg" />
+            <p>
+              Steve Jobs, along with Steve Wozniak, are the two people that have inspired me the most. I tend to like creating things, and how they created the word's largest company with no money and a garage in California inspires me to try to do the same. I want to be able to build my career from where it is now to new heights, and looking up to the two people that most think of when you mention "tech startup" will inspire me to keep going.
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>Chris Young | CSC230 | Sullivan University</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
