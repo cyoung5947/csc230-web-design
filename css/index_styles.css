@@ -12,84 +12,44 @@
 
 /* Window and Body Styles */
 html {
-   background-color: rgb(230, 182, 144);
+   background-color: rgb(#FFFFFF);
 }
 
 body {
-   background-color: rgb(250, 238, 218);
-   font-family: Verdana, Geneva, Arial, sans-serif;
+   background-color: rgb(#FFFFFF);
+   font-family: 'Ubuntu', sans-serif;
 }
 
 
 
-/* Page Header Styles */
+/* List Styles */
 
-body > header {
-   background-color: rgb(61, 138, 216);
+.dash-list{
+  list-style-type: cjk-ideographic;
 }
 
+/* Body Styles */
 
-body > header > nav a {
-   font-size: 1em;
-   margin: 0.4em 0;
-   padding: 5px;
+#tribute-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-body > header > nav a:link, body > header > nav:visited {
-   color: rgb(250, 238, 218);
+/*For some reason I could never get these working */
+.red-text{
+  color: rgb(#990000);
 }
-
-body > header > nav a:hover, body > header > nav:active {
-   background-color: rgba(0, 0, 0, 0.2);
-}
-
-
-/* Horizontal Navigation List Styles */
-
-nav.horizontal ul li {
-   background-color: rgb(18, 31, 102);
-   font-size: 0.9em;
-   padding: 10px 0;
-   text-align: center;
-}
-
-nav.horizontal a:link, nav.horizontal a:visited {
-   color: rgb(250, 238, 218);
-}
-
-nav.horizontal a:hover, nav.horizontal a:active {
-   color: rgb(255, 255, 64);
-}
-
-
-/* Topics Styles */
-   ul#topics {
-   margin-top: 20px;
-   margin-bottom: 20px;
-}
-
-
-ul#topics li p {
-   color: rgb(95, 114, 232);
-   font-size: 0.8em;
-}
-
-
-
-/* Customer Comment Styles */
-
-
-ul#comments li p {
-   font-size: 0.9em;
-   color: rgb(121, 121, 121);
-   line-height: 1.2em;
+.background-img{
+  background-image: url("images/background-tile.png");
+  background-repeat: repeat;
 }
 
 /* Footer Styles */
 
 footer {
-   color: rgb(186, 186, 156);
-   background-color: rgb(44, 91, 169);
+   background-color: rgb(#990000);
    font-size: 0.9em;
    padding: 10px 0px;
    text-align: center;
